@@ -1,0 +1,129 @@
+.home{
+    width: 100%;
+    align-items: center;
+    color: #202c5a;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #202c5a;
+    color: #f0f0f0;
+}
+.about h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #e5e743;
+    height: 50px;
+}
+.prompt{
+    width: 40%;
+    font-size: 30px;
+}
+.prompt svg{
+    font-size: 60px;
+    margin: 5px;
+    color: white;  
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #202c5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202c5a;
+}
+.header h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px ;
+    height: 50px;
+    font-size: 50px;
+    color: #e5e743;
+}
+.skills h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+.progress-bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: #e5e743;
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #202c5a;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    animation: html 5s linear forwards;
+    animation-iteration-count: 5;
+}
+.css{
+    animation: css 5s linear forwards;
+    animation-iteration-count: 5;
+}
+.javascript{
+    animation: javascript 5s linear forwards;
+    animation-iteration-count: 5;
+}
+.react{
+    animation: react 5s linear forwards;
+    animation-iteration-count: 5;
+}
+@keyframes html{
+    100%{
+        width: 80%
+    }
+}
+@keyframes css{
+    100%{
+        width: 60%
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 50%
+    }
+}
+@keyframes react{
+    100%{
+        width: 40%;
+    }
+}
